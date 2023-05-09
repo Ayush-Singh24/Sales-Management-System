@@ -476,6 +476,7 @@ public:
         case 0:
             return;
         }
+        cout << "\nProduct Added!" << endl;
     }
     void sellItem()
     {
@@ -583,6 +584,7 @@ public:
         case 0:
             return;
         }
+        cout << "\nProduct Sold!" << endl;
     }
     void modifyItem()
     {
