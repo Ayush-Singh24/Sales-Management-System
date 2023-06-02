@@ -733,12 +733,12 @@ public:
             catch (string e)
             {
                 cout << e << endl;
-                return;
+                // return;
             }
             catch (...)
             {
                 cout << "Some error occured" << endl;
-                return;
+                break;
             }
             switch (response)
             {
